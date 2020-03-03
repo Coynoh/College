@@ -1,0 +1,24 @@
+//uncomment next line if inputs required
+import java.util.Scanner;
+
+public class Weight {
+	public static void main(String[] args){
+
+	//uncomment next line if input required
+	Scanner input = new Scanner(System.in);
+
+	//Declare variables/types
+	int count = 0;
+	int w = 0;
+	int total = 0;
+
+	System.out.println("Enter weight fatso");
+	w = input.nextInt();
+
+	while(count <= 14 && w != -1){
+	total = total + w;
+}
+
+
+	}
+}
